@@ -1,0 +1,53 @@
+.restaurantContainer {
+    width: 80em;
+    display:flex;
+    margin-right:auto;
+    margin-left:auto;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.Restaurant {
+    display:grid;
+    margin-right: 15px;
+    margin-left: 15px;
+    overflow: scroll;
+    scrollbar-width: none;
+    grid-template: repeat(4, 1fr);
+    justify-items: start;
+  }
+
+  
+  .Restaurant .resImg {
+      margin-top: 20px;
+      grid-column-start: 1;
+      grid-column-end: 3;
+  }
+
+  .Restaurant .resImg:hover{
+      opacity: 0.3;
+  }
+  
+  .RestaurantHeader{
+      margin-top: -15px;
+      font-size:18px;
+      font-weight: bold;
+  }
+  
+  .rating {
+    margin-top: -12px;
+      justify-self: end;
+      font-size:14px;
+      align-self: normal;
+  }
+  
+  .Restaurant .rDescription {
+    margin-top: -30px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    font-style: italic;
+    font-size: 14px;
+  }
+  
+  

@@ -1,0 +1,84 @@
+
+.searchContainer {
+    display: block;
+    margin-top: 10em;
+    
+    text-align: center;
+    width: 50.5em;
+    margin-left:auto;
+    margin-right:auto;
+
+}
+.searchBox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border: 1px solid #ddd;
+  }
+  
+  .searchBox input{
+    margin-bottom: 1em;
+    padding: 5px 10px;
+    height: 55px;
+    width:30em;
+    margin-top: 1em;
+    font-size: 17px;
+    border: 1px solid #ddd;
+  }
+  
+  .searchButton {
+    padding: 16px 45px;
+    margin-left: 12px;
+    margin-right: 16px;
+    background: #47c486;
+    font-size: 17px;
+    border: 1px solid #ddd;
+    
+    cursor: pointer;
+  }
+  
+  .fa-search {
+    color:white;
+    
+  }
+  
+  .searchButton:hover {
+    background: #ccc;
+  }
+  
+  .searchResultBtn {
+    margin-top: 0;
+  }
+  
+  .searchResultBtn button {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 0.5em;
+    font-size: 17px;
+    height: 50px;
+    width: 250px;
+    background:  orange linear-gradient(orange,#ff8c00);
+    border: 1px solid #ddd;
+    opacity: 0.75;
+    color: white;
+    font-size: 2;
+    font-weight: 500;
+    border-radius: 10px;
+  }
+  
+ 
+  #mapBtn{
+    margin-left: 10px;
+    padding: 13px 45px;
+    background: #47c486;
+  }
+  #mapBtn button:hover {
+    background: #ccc;
+  }
+  
+  .fa-map-marker {
+    color: white;
+  }

@@ -1,0 +1,30 @@
+.App-header {
+    font-family: Helvetica;
+    font-size: 2em;
+    height:3em;
+    background: rgb(18,89,124);
+    background: linear-gradient(90deg, rgba(18,89,124,1) 0%, rgba(71,196,134,1) 100%);   
+    margin: 0;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .App-header p {
+      margin: 0 0 0 1em;
+      color: white;
+  }
+
+  .App-header button {
+      font-family: Helvetica, sans-serif;
+      font-size: 15px;
+      height: 3em;
+      width: 8em;
+      color: white;
+      background:#47c486;
+      border-style: solid;
+      margin-right: 2em;
+      order:2;
+  }
